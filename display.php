@@ -18,6 +18,7 @@ include 'connect.php';
 <body>
 
     <div class="container my-5">
+        <h1 class="fs-2 text-center fw-bold my-5">Simple CRUD Operation in PHP and MySql</h1>
         <a href="./user.php">
             <button class="btn btn-primary">Add user</button>
         </a>

@@ -33,6 +33,7 @@ if(isset($_POST['submit'])){
 <body>
 
     <div class="container my-5">
+        <h1 class="fs-2 text-center fw-bold my-5">ADD NEW USER</h1>
         <form method="POST">
             <div class="mb-3">
                 <label class="form-label">Name</label>
