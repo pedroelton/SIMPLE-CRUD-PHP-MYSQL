@@ -56,7 +56,7 @@ include 'connect.php';
                                 <td>' . $password . '</td>
                             <td class="d-flex flex-row gap-3">
                                 <a href="./update.php?updateid=' . $id . '">
-                                    <button class="btn btn-success">Update</button>
+                                    <button class="btn btn-success">Edit</button>
                                 </a>
                                 <a href="./delete.php?deleteid=' . $id . '">
                                     <button class="btn btn-danger">Delete</button>

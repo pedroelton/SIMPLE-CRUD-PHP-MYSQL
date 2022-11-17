@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
     <?php
     echo '
 <div class="container my-5">
- <h1 class="fs-2 text-center fw-bold my-5">UPDATE THE USER INFORMATION</h1>
+ <h1 class="fs-2 text-center fw-bold my-5">EDIT THE USER INFORMATION</h1>
     <form method="POST">
         <div class="mb-3">
             <label class="form-label">Name</label>
@@ -60,7 +60,7 @@ if (isset($_POST['submit'])) {
             <label class="form-label">Password</label>
             <input type="password" class="form-control" placeholder="Enter your password" name="password" value=' . $password . '>
         </div>
-        <button type="submit" class="btn btn-primary" name="submit">Update</button>
+        <button type="submit" class="btn btn-primary" name="submit">Save</button>
     </form>
 </div>
 '
